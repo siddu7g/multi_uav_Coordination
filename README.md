@@ -1,4 +1,4 @@
-# Sweeping Generator
+# Trajectory Generation and Multi UAV Communication using ROS Nodes
 
 ## How to start
 
