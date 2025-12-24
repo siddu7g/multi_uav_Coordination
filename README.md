@@ -53,6 +53,8 @@ When a disc is detected by one UAV, other UAVs automatically reposition into for
 Formation offsets are dynamically calculated (line or circular distribution depending on swarm size).
 Continuous re-broadcast ensures swarm-wide synchronization.
 
+![Traget Search](videos/screenshot.png)
+
 Visualization & Diagnostics:
 
 Publishes annotated camera images with detection overlays for debugging and visualization.
