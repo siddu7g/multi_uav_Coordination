@@ -41,11 +41,11 @@ Once confirmed, detection is broadcast to other UAVs in the network.
 
 Path Planning & Trajectories:
 
-Implements multiple trajectory planners:
-Circle trajectory – UAV follows a circular path around a defined center.
-Rectangle trajectory – UAV scans an area in a rectangular pattern.
-Sweep trajectory – UAV performs a sweeping lawnmower-style scan of an area.
-Targeted path – UAV flies directly to a given (x, y, z) coordinate.
+Implements multiple trajectory planners (MRTA):
+Circle trajectory: UAV follows a circular path around a defined center.
+Rectangle trajectory: UAV scans an area in a rectangular pattern.
+Sweep trajectory: UAV performs a sweeping lawnmower-style scan of an area.
+Targeted path: UAV flies directly to a given (x, y, z) coordinate.
 All paths are generated as PathSrvRequest messages and executed via ROS services.
 
 Multi-Agent Coordination:
@@ -53,7 +53,7 @@ When a disc is detected by one UAV, other UAVs automatically reposition into for
 Formation offsets are dynamically calculated (line or circular distribution depending on swarm size).
 Continuous re-broadcast ensures swarm-wide synchronization.
 
-![Traget Search](videos/screenshot.png)
+![Traget Search](videos/Screenshot.png)
 
 Visualization & Diagnostics:
 
