@@ -59,3 +59,5 @@ Visualization & Diagnostics:
 
 Publishes annotated camera images with detection overlays for debugging and visualization.
 Logs UAV status, detection events, and path execution progress.
+
+Link: https://www.youtube.com/watch?v=kvYuOkeFVt0
